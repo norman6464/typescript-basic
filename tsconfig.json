@@ -6,6 +6,8 @@
     "rootDir": "./src",
     // トランスパイル後のjsファイルの配置場所
     "outDir": "./dist",
+    // 型エラーが一つでも検知したら、.jsファイルを出力する
+    "noEmitOnError": true,
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
